@@ -56,7 +56,6 @@ h1{
     line-height: 192px;
     margin-top: 160px;
     margin-left: 312px; 
-    initial-letter: 12%;
   }
   .vito_img {
     width: 636px;
@@ -66,34 +65,28 @@ h1{
   }
   
 
-h2{
+.resume_title{
   font-size:128px;
     width: 622px;
     line-height: 192px;
-    /* top: 1200px;
-    left: 972px; */
-    /*  */
-    margin-top: 0px;
+    top: 1200px;
     margin-left: 972px;
-    letter-spacing: 12%;
 }
 
 .resume {
   height: 432px;
   top: 1392px;
-
   background-color: #EFEFEF;
   display: flex;
   align-items: center;
   line-height: 36px;
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 .right {
   margin-left: 972px;
   width: 636px;
   height: 336px;
- 
   font-size: 32px;
   font-weight: 400;
   line-height: 48px;
@@ -103,22 +96,25 @@ h2{
 
 .frame{
   /* top: 1904px; */
-  margin-top: 40px;
+  /* margin-top: 40px;
   margin-left: 312px;
-  margin-bottom: 40px;
-  line-height: 48px;
- 
-  font-size: 32px;
+  margin-bottom: 40px; */
+  margin:40px 0px 40px 312px;
+  padding: 8px auto;
+  font-family: 'Castoro';
 }
 
-h3{
-
-  font-size: 60px;
+h2{
+  font-family: 'Castoro';
+  font-size: 40px;
+  font-weight: bold;
   color:#AE0000;
   border-bottom:3px #AE0000 solid;
   width: 636px;
   height: 60px;
-  line-height: 60px;
+  line-height: 63px;
+  margin-top: 24px;
+  margin-bottom: 16px;
 }
 .info_year{
   font-size: 20px;
@@ -128,7 +124,8 @@ h3{
   text-align: left;  
   color: #949494;
   font-style: italic;
-  margin-top: 16px;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 .info_text{
   width:636px;
@@ -138,7 +135,8 @@ h3{
   line-height: 36px;
   letter-spacing: 0em;
   text-align: left;  
-  margin-top: 16px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }
 
 .footer {
@@ -149,7 +147,7 @@ h3{
   flex-direction: row;
   justify-content:center;
   align-items: center;
-  margin-top: 100px;
+  margin: 160px auto;
 }
 
   .footer_img {
